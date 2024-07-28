@@ -82,12 +82,12 @@
 
   .btn-color-1,
   .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
+    background: white;
+    color: rgb(0, 0, 0);
   }
 
   .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: white;
   }
 
   .btn-color-2 {
@@ -95,7 +95,7 @@
   }
 
   .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: rgb(53, 53, 53) 0.1rem solid;
   }
   a {
     text-decoration: none;
@@ -179,12 +179,12 @@
 
   .btn-color-1,
   .btn-color-2:hover {
-    background: rgb(53, 53, 53);
-    color: white;
+    background: white;
+    color: rgb(0, 0, 0);
   }
 
   .btn-color-1:hover {
-    background: rgb(0, 0, 0);
+    background: white;
   }
 
   .btn-color-2 {
@@ -192,7 +192,7 @@
   }
 
   .btn-color-2:hover {
-    border: rgb(255, 255, 255) 0.1rem solid;
+    border: rgb(53, 53, 53) 0.1rem solid;
   }
   a {
     text-decoration: none;
