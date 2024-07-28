@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Samu Idhayan</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#achievements">Achievements</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Samu Idhayan</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="IDHAYAN profile picture" />
+        
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Samu Idhayan</h1>
+        <p class="section__text__p2">Aspiring AI and Software Developer</p>
+        <br>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('https://drive.google.com/file/d/1GpevGip331sdwk9ynzY-Aq8GRopEoXqp/view?usp=sharing', '_blank')">
+            Download CV
+          </button>
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <br>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/samu-idhayan/" target="_blank">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+            />
+          </a>
+          
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="window.open('https://github.com/SamuIdhayanI', '_blank')"
+
+          />
+          
+        </div>
+      </div>
+      
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about-pic.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Tech CSE (AI)<br />Karunya University</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Current Position</h3>
+              <p> Intern at <br />iHub-Data, IIIT Hyderabad</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="description" >&emsp;&emsp;&emsp;As a Computer Science and Engineering student specializing in AI, I'm deeply passionate about technology. With a strong coding background, I'm committed to creating impactful solutions globally. My leadership skills complement my technical expertise, inspiring others to excel. Fascinated by Data Science and Machine Learning, I uncover insights to drive innovation. Eager to grow, I embrace new technologies for continuous development.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Technical Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Languages</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python &emsp;&emsp;</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java &emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML &emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS &emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL &emsp;&emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+            </div>
+          <br><br><br>
+            <h2 class="experience-sub-title">Utilities</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git &emsp; &emsp;&emsp;  </h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>GitHub &emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+              </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Technologies and Tools</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Artificial Intelligence</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Science</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Deep Learning</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Android Development</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Chart.js &emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>YOLO v8 &emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flask &emsp;&emsp;&emsp;&emsp;</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Web Development</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="scrollmenu">
+        <div class="about-containers" style="margin-bottom: 0px; margin-top: 0px;">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">Real-time</h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;">Road Monitoring</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/Road-Monitoring-DeepLearning', '_blank')"
+
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">Analysis of</h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;">ADAS Alerts</h2>
+
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/Analysis-of-Alert-Patterns-and-Factors-in-ADAS', '_blank')"
+
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">Dyssolve </h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;">Assistive App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/Dyssolve-Empowering-Learning', '_blank')"
+
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-4.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">Farm Friend</h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;">Farmer's App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/FarmFriend-Mobile-Application-for-Farmers', '_blank')"
+
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-5.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">Accident Alert</h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;">and Reporting</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/Accident-Detection-and-Reporting-System', '_blank')"
+
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-6.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">From Code</h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;">To Click</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/Comparing-Game-Dev-Approaches', '_blank')"
+
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-7.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">OS Algorithm</h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;"> Simulator </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/OSilate-Algorithms-Simulator', '_blank')"
+
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-8.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title" style="margin-bottom: 0px;">Fake News</h2>
+            <h2 class="experience-sub-title project-title" style="margin-top: 0px;">Detection</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/SamuIdhayanI/FakeNewsDetectionUsingML', '_blank')"
+
+                
+              >
+                Github
+              </button>
+              
+            </div>
+          </div>
+          
+        </div>
+        </div>
+      </div>
+      <p class="section__text__px">Scroll to See More  >>> </p>
+
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#achievements'"
+      />
+    </section>
+
+    <section id="achievements">
+      <p class="section__text__p1">Discover My</p>
+      <h1 class="title">Achievements</h1>
+      <div class="experience-details-container">
+        <div class="about-containers" style="margin-bottom: 0px; margin-top: 0px;">
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/achive-1.jpeg"
+                alt="achive-1"
+                class="project-img"
+              />
+            </div>
+            <br>
+            <h4>Winner: Intel® Unnati Grand Challenge Summer 2023</h4>
+            <br>
+            <p>Intel® Unnati Grand Challenge is a hackathon dedicated to advancing smart mobility solutions in India</p>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/achive-2.png"
+                alt="achive-1"
+                class="project-img"
+              />
+            </div>
+            <br>
+            <h4>Winner: Equipathon 2023 sponsored by Intel®</h4>
+            <br>
+            <p>Equipathon 2023 is a hackathon advancing technology for the wellness of people with disabilities</p>
+          </div>
+
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />      
+    </section>
+
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:samidhayani@gmail.com">samidhayani@gmail.com</a></p> <br class="mobile-break">
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/samu-idhayan/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Thank you for visiting my portfolio! 🚀 Feel free to connect with me! 😊</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
