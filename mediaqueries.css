@@ -17,6 +17,9 @@
     margin: 0 auto;
     line-height: 1.6;
   }
+  a{
+    text-decoration: none;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -66,6 +69,38 @@
   .mobile-break{
     display: block;
   }
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    color: rgb(0, 0, 0);
+  }
+
+  .btn-color-1:hover,
+  .btn-color-2:hover {
+    cursor: pointer;
+  }
+
+  .btn-color-1,
+  .btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+  }
+
+  .btn-color-1:hover {
+    background: rgb(0, 0, 0);
+  }
+
+  .btn-color-2 {
+    background: none;
+  }
+
+  .btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+  }
+  a {
+    text-decoration: none;
+}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -131,4 +166,36 @@
   .mobile-break{
     display: block;
   }
+  .btn-color-1,
+  .btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+    color: rgb(0, 0, 0);
+  }
+
+  .btn-color-1:hover,
+  .btn-color-2:hover {
+    cursor: pointer;
+  }
+
+  .btn-color-1,
+  .btn-color-2:hover {
+    background: rgb(53, 53, 53);
+    color: white;
+  }
+
+  .btn-color-1:hover {
+    background: rgb(0, 0, 0);
+  }
+
+  .btn-color-2 {
+    background: none;
+  }
+
+  .btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+  }
+  a {
+    text-decoration: none;
+}
+
 }
